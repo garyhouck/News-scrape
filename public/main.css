@@ -1,0 +1,33 @@
+body {
+    background-image: url("http://img.kb-cdn.com/imgviewer/NVpIM2ptOHhYRzVmUk5rM1NrNlFxYVV6enV4aGk2UFRJMmxPckdDUUVNYkRPRnlBWnA3MUczUjUzNmUxOXJTT1RUNUtJNkhJMjQ3OUVLeE56VkVjODFVV2o4dUZmdXRoam1EcndSbm1zeFRjNFRKUDNHRUJVd3E3Z3FDT1ZJdHYyU1Z5QkEveDE3VWZ0Q2F5TWZLcjMvSExaZEFvTFkwajdwOTgyUjZOS2JtV1YzdmRKWVFjbjhVelpTcVlHK0haMmMyd3FzQXJob3pJM3dQSnM4dzdRc2crbmZLQ2l1ZmpMSXJnYjgxczFjZz0=");
+}
+.jumbotron {
+    background-image: url("https://steemitimages.com/DQmed3dag4T5wBYufbSmmCnC7MAqz1UMDKsvJLSYAxBY2xp/Independent_promo_photo1_-_web___Super_Portrait.jpg");
+    height: 300px;
+    margin: 0;   
+}
+header {
+    text-align: center;
+    color: navy; 
+    background-color: white;
+    margin: 0   
+}
+.btn {
+    text-align: center;
+    background-color: teal;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border: 1px solid teal;  
+}
+.btn:hover {
+    background-color: navy;
+}
+#buttons {
+    width: 500px;
+    margin: auto;     
+}
+#newsLinks {
+    background-color: rgb(255, 255, 255, .8);
+    padding: 30px;
+    margin-top: 20px;
+}
