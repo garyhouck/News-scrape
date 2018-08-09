@@ -10,6 +10,11 @@ let PORT = 3000;
 
 let app = express();
 
+var MONGODB_URI = process.env.MONGODB_URI
+mongoose.Promise = Promise;
+mongoose.connect(MONGODB_URI);
+
+
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 mongoose.connect("mongodb://localhost/newscrape");
