@@ -6,7 +6,7 @@ let axios = require("axios");
 let db = require("./models");
 let mongoose = require("mongoose");
 
-let PORT = 3000;
+var PORT = process.env.PORT || 3000;
 
 let app = express();
 
